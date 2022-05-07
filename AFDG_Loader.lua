@@ -1,3 +1,4 @@
+--// Thanks to pineapple for scriptspawn.
 writefile("AFDG.Framework.Dat",syn.request({Url="https://github.com/Zekevious/Models/raw/main/AFDG%20-%20Testing.rbxm"}).Body)
 function wrap(script)
 	f,Gui = loadstring(script.Source)
