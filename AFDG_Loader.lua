@@ -1,4 +1,7 @@
 --// Thanks to pineapple for scriptspawn.
+--// loadstring(game:HttpGet('https://raw.githubusercontent.com/Zekevious/Scripts/main/AFDG_Loader.lua'))()
+--// I recommend using the loadstring above.
+
 writefile("AFDG.Framework.Dat",syn.request({Url="https://github.com/Zekevious/Models/raw/main/AFDG%20-%20Testing.rbxm"}).Body)
 function wrap(script)
 	f,Gui = loadstring(script.Source)
